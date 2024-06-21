@@ -1,0 +1,66 @@
+.ffai-weather-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ffai-weather-dashboard h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.ffai-weather-search {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ffai-weather-search input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+}
+
+.ffai-weather-search button {
+    padding: 8px 15px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.ffai-weather-search button:hover {
+    background-color: #005177;
+}
+
+.ffai-weather-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#ffai-weather-current,
+#ffai-weather-forecast,
+#ffai-weather-agriculture {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#ffai-weather-forecast {
+    grid-column: span 2;
+}
+
+#ffai-weather-chart {
+    width: 100%;
+    height: 300px;
+}
+
+#ffai-weather-agriculture ul {
+    padding-left: 20px;
+}

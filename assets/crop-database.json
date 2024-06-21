@@ -1,0 +1,200 @@
+{
+  "crops": [
+    {
+      "name": "Corn",
+      "scientific_name": "Zea mays",
+      "type": "Grain",
+      "growing_season": {
+        "planting": "Late spring",
+        "harvest": "Late summer to early fall"
+      },
+      "growing_time": {
+        "min_days": 60,
+        "max_days": 100
+      },
+      "soil_requirements": {
+        "pH": {
+          "min": 5.8,
+          "max": 7.0,
+          "optimal": 6.5
+        },
+        "type": "Well-drained, fertile loam"
+      },
+      "climate": {
+        "temperature": {
+          "min": 50,
+          "max": 86,
+          "unit": "°F"
+        },
+        "annual_rainfall": {
+          "min": 20,
+          "max": 40,
+          "unit": "inches"
+        }
+      },
+      "water_needs": "Moderate to high",
+      "sunlight": "Full sun",
+      "spacing": {
+        "between_plants": {
+          "value": 4,
+          "unit": "inches"
+        },
+        "between_rows": {
+          "value": 30,
+          "unit": "inches"
+        }
+      },
+      "fertilizer_needs": {
+        "nitrogen": "High",
+        "phosphorus": "Moderate",
+        "potassium": "Moderate"
+      },
+      "common_pests": [
+        "Corn earworm",
+        "European corn borer",
+        "Cutworms"
+      ],
+      "common_diseases": [
+        "Gray leaf spot",
+        "Northern corn leaf blight",
+        "Fusarium stalk rot"
+      ],
+      "companion_plants": [
+        "Beans",
+        "Squash",
+        "Cucumber"
+      ],
+      "avoid_planting_with": [
+        "Tomatoes"
+      ],
+      "rotation_considerations": "Avoid planting corn in the same field for consecutive years to prevent nutrient depletion and pest buildup",
+      "storage": {
+        "temperature": {
+          "value": 32,
+          "unit": "°F"
+        },
+        "humidity": {
+          "value": 85,
+          "unit": "%"
+        },
+        "max_storage_time": {
+          "value": 6,
+          "unit": "months"
+        }
+      },
+      "nutritional_value": {
+        "calories": 365,
+        "protein": 9.4,
+        "carbohydrates": 74,
+        "fiber": 7.3,
+        "fat": 4.7,
+        "unit": "per 100g"
+      },
+      "uses": [
+        "Human consumption",
+        "Animal feed",
+        "Biofuel production",
+        "Industrial uses (e.g., corn starch, corn syrup)"
+      ]
+    },
+    {
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "type": "Fruit vegetable",
+      "growing_season": {
+        "planting": "Early spring (after last frost)",
+        "harvest": "Mid to late summer"
+      },
+      "growing_time": {
+        "min_days": 60,
+        "max_days": 100
+      },
+      "soil_requirements": {
+        "pH": {
+          "min": 6.0,
+          "max": 6.8,
+          "optimal": 6.5
+        },
+        "type": "Well-drained, rich in organic matter"
+      },
+      "climate": {
+        "temperature": {
+          "min": 55,
+          "max": 85,
+          "unit": "°F"
+        },
+        "annual_rainfall": {
+          "min": 20,
+          "max": 40,
+          "unit": "inches"
+        }
+      },
+      "water_needs": "Moderate, consistent moisture",
+      "sunlight": "Full sun",
+      "spacing": {
+        "between_plants": {
+          "value": 24,
+          "unit": "inches"
+        },
+        "between_rows": {
+          "value": 36,
+          "unit": "inches"
+        }
+      },
+      "fertilizer_needs": {
+        "nitrogen": "Moderate",
+        "phosphorus": "High",
+        "potassium": "High"
+      },
+      "common_pests": [
+        "Tomato hornworm",
+        "Aphids",
+        "Whiteflies"
+      ],
+      "common_diseases": [
+        "Early blight",
+        "Late blight",
+        "Fusarium wilt"
+      ],
+      "companion_plants": [
+        "Basil",
+        "Marigolds",
+        "Carrots"
+      ],
+      "avoid_planting_with": [
+        "Potatoes",
+        "Corn",
+        "Kohlrabi"
+      ],
+      "rotation_considerations": "Rotate with non-solanaceous crops to prevent soil-borne diseases",
+      "storage": {
+        "temperature": {
+          "value": 55,
+          "unit": "°F"
+        },
+        "humidity": {
+          "value": 95,
+          "unit": "%"
+        },
+        "max_storage_time": {
+          "value": 2,
+          "unit": "weeks"
+        }
+      },
+      "nutritional_value": {
+        "calories": 18,
+        "protein": 0.9,
+        "carbohydrates": 3.9,
+        "fiber": 1.2,
+        "fat": 0.2,
+        "unit": "per 100g"
+      },
+      "uses": [
+        "Fresh consumption",
+        "Cooking",
+        "Canning",
+        "Sauce production"
+      ]
+    }
+  ]
+}

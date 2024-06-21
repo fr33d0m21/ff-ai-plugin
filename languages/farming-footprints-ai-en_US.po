@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Farming Footprints AI 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/farming-footprints-ai\n"
+"POT-Creation-Date: 2023-06-20 12:00+0000\n"
+"PO-Revision-Date: 2023-06-20 12:00+0000\n"
+"Last-Translator: Daniel Boissonneault\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: includes/class-ffai-admin.php:45
+msgid "Farming Footprints AI Settings"
+msgstr "Farming Footprints AI Settings"
+
+#: includes/class-ffai-admin.php:46
+msgid "FF AI Settings"
+msgstr "FF AI Settings"
+
+#: includes/class-ffai-admin.php:60
+msgid "General Settings"
+msgstr "General Settings"
+
+#: includes/class-ffai-admin.php:61
+msgid "AI Settings"
+msgstr "AI Settings"
+
+#: includes/class-ffai-admin.php:62
+msgid "Weather Settings"
+msgstr "Weather Settings"
+
+#: includes/class-ffai-admin.php:63
+msgid "Crop Settings"
+msgstr "Crop Settings"
+
+#: includes/class-ffai-admin.php:80
+msgid "API Key"
+msgstr "API Key"
+
+#: includes/class-ffai-admin.php:88
+msgid "Default Language"
+msgstr "Default Language"
+
+#: includes/class-ffai-admin.php:96
+msgid "Enable Debug Mode"
+msgstr "Enable Debug Mode"
+
+#: includes/class-ffai-crop-planner.php:25
+msgid "Crop Planner"
+msgstr "Crop Planner"
+
+#: includes/class-ffai-crop-planner.php:31
+msgid "Location:"
+msgstr "Location:"
+
+#: includes/class-ffai-crop-planner.php:34
+msgid "Farm Size (acres):"
+msgstr "Farm Size (acres):"
+
+#: includes/class-ffai-crop-planner.php:37
+msgid "Farming Method:"
+msgstr "Farming Method:"
+
+#: includes/class-ffai-crop-planner.php:39
+msgid "Conventional"
+msgstr "Conventional"
+
+#: includes/class-ffai-crop-planner.php:40
+msgid "Organic"
+msgstr "Organic"
+
+#: includes/class-ffai-crop-planner.php:41
+msgid "No-Till"
+msgstr "No-Till"
+
+#: includes/class-ffai-crop-planner.php:45
+msgid "Previous Crops:"
+msgstr "Previous Crops:"
+
+#: includes/class-ffai-crop-planner.php:46
+msgid "e.g., Corn, Soybeans"
+msgstr "e.g., Corn, Soybeans"
+
+#: includes/class-ffai-crop-planner.php:49
+msgid "Generate Crop Plan"
+msgstr "Generate Crop Plan"
+
+#: includes/class-ffai-crop-planner.php:53
+msgid "Your Crop Plan"
+msgstr "Your Crop Plan"
+
+#: includes/class-ffai-crop-planner.php:55
+msgid "Save Plan"
+msgstr "Save Plan"
+
+#: includes/class-ffai-weather-dashboard.php:25
+msgid "Weather Dashboard"
+msgstr "Weather Dashboard"
+
+#: includes/class-ffai-weather-dashboard.php:31
+msgid "Enter location"
+msgstr "Enter location"
+
+#: includes/class-ffai-weather-dashboard.php:32
+msgid "Search"
+msgstr "Search"
+
+#: includes/class-ffai-weather-dashboard.php:108
+msgid "Current Weather"
+msgstr "Current Weather"
+
+#: includes/class-ffai-weather-dashboard.php:109
+msgid "Temperature"
+msgstr "Temperature"
+
+#: includes/class-ffai-weather-dashboard.php:110
+msgid "Humidity"
+msgstr "Humidity"
+
+#: includes/class-ffai-weather-dashboard.php:111
+msgid "Wind Speed"
+msgstr "Wind Speed"
+
+#: includes/class-ffai-weather-dashboard.php:112
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-ffai-weather-dashboard.php:116
+msgid "Forecast"
+msgstr "Forecast"
+
+#: includes/class-ffai-weather-dashboard.php:124
+msgid "Agricultural Insights"
+msgstr "Agricultural Insights"
+
+#: includes/class-ffai-ai-chat.php:25
+msgid "AI Farming Assistant"
+msgstr "AI Farming Assistant"
+
+#: includes/class-ffai-ai-chat.php:26
+msgid "Ask me anything about farming..."
+msgstr "Ask me anything about farming..."
+
+#: includes/class-ffai-ai-chat.php:30
+msgid "Send"
+msgstr "Send"
+
+#: includes/class-ffai-database-manager.php:156
+msgid "Failed to register IoT device."
+msgstr "Failed to register IoT device."
+
+#: includes/class-ffai-database-manager.php:172
+msgid "Device not found."
+msgstr "Device not found."
+
+#: includes/class-ffai-database-manager.php:188
+msgid "Failed to update device data."
+msgstr "Failed to update device data."
+
+#: includes/class-ffai-user-authentication.php:89
+msgid "Farmer Profile Information"
+msgstr "Farmer Profile Information"
+
+#: includes/class-ffai-user-authentication.php:91
+msgid "Farm Size (acres)"
+msgstr "Farm Size (acres)"
+
+#: includes/class-ffai-user-authentication.php:96
+msgid "Primary Crops"
+msgstr "Primary Crops"
+
+#: includes/class-ffai-user-authentication.php:98
+msgid "Enter crops separated by commas"
+msgstr "Enter crops separated by commas"
+
+#: includes/class-ffai-user-authentication.php:101
+msgid "Farming Method"
+msgstr "Farming Method"
+
+#: includes/class-ffai-user-authentication.php:185
+msgid "Invalid username or email."
+msgstr "Invalid username or email."
+
+#: includes/class-ffai-user-authentication.php:196
+msgid "The email could not be sent."
+msgstr "The email could not be sent."
